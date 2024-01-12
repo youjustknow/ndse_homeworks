@@ -3,9 +3,14 @@
   "version": "0.0.1",
   "description": "Simple console utilite for displaying current datetime with additional features",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.2.0",
+    "yargs": "^17.7.2"
+  }
 }
