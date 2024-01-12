@@ -1,9 +1,10 @@
 import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
 import currentComandHandler from './commands/current.js'
 import addComandHandler from './commands/add.js'
 import subComandHandler from './commands/sub.js'
 
-yargs(process.argv.slice(2))
+yargs(hideBin(process.argv))
   .command('current', 'Display current datetime in UTC format', (yargs) => {
     yargs
       .option('year', {
