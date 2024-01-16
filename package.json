@@ -1,8 +1,9 @@
 {
-  "name": "datetime",
+  "name": "homeworks",
   "version": "0.0.1",
-  "description": "Simple console utilite for displaying current datetime with additional features",
+  "description": "Homeworks from nodejs course",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
